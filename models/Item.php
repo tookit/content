@@ -29,6 +29,15 @@ class Item extends Model
         ]
     ];
 
+    public $morphToMany = [
+        'tags' => [
+            Tag::class,
+            'name'=> 'taggable',
+            'table' => 'socklab_content_taggables',
+        ]
+    ];
+
+
 
 
 }

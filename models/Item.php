@@ -37,7 +37,11 @@ class Item extends Model
         ]
     ];
 
-
+    public $attachMany = [
+        'images' => [
+            \System\Models\File::class
+        ]
+    ];
 
 
 }

@@ -23,7 +23,11 @@ class Item extends Model
     public $table = 'socklab_content_items';
 
 
-
+    public $belongsTo = [
+        'category' => [
+            Category::class
+        ]
+    ];
 
 
 

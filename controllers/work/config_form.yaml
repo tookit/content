@@ -1,6 +1,6 @@
 name: Work
 modelClass: Socklab\Content\Models\Work
-form: $/socklab/content/models/Work/fields.yaml
+form: $/socklab/content/models/work/fields.yaml
 defaultRedirect: socklab/content/work
 create:
     redirect: 'socklab/content/work/update/:id'

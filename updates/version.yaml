@@ -1,0 +1,23 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Create item table'
+    - create_item_table.php
+1.0.3:
+    - 'Create category table'
+    - create_category_table.php
+1.0.4:
+    - 'Create tag table'
+    - create_tag_table.php
+1.0.5:
+    - 'Create work table'
+    - create_work_table.php
+1.0.6:
+    - 'Create taggable table'
+    - create_taggable_table.php
+1.0.7:
+    - 'Create team table'
+    - create_team_table.php
+1.0.8:
+    - 'Create seeder'
+    - base_seeder.php

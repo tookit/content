@@ -1,0 +1,28 @@
+plugin:
+    name: 'socklab.content::lang.plugin.name'
+    description: 'socklab.content::lang.plugin.description'
+    author: SockLab
+    icon: oc-icon-medium
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'socklab.content::lang.plugin.name'
+        url: /socklab/content/news
+        icon: icon-medium
+        sideMenu:
+            side-menu-category:
+                label: Category
+                url: /socklab/content/category
+                icon: icon-th-list
+            side-menu-tags:
+                label: Tags
+                url: /socklab/content/tag
+                icon: icon-tags
+            side-menu-news:
+                label: News
+                url: /socklab/content/news
+                icon: icon-newspaper-o
+            side-menu-works:
+                label: Works
+                url: /socklab/content/work
+                icon: icon-image

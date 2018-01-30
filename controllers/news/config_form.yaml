@@ -1,0 +1,10 @@
+name: News
+form: $/socklab/content/models/item/fields.yaml
+modelClass: Socklab\Content\Models\Item
+defaultRedirect: socklab/content/news
+create:
+    redirect: 'socklab/content/news/update/:id'
+    redirectClose: socklab/content/news
+update:
+    redirect: socklab/content/news
+    redirectClose: socklab/content/news

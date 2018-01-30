@@ -1,0 +1,79 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'News Title'
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    category:
+        label: Category
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: left
+        type: relation
+    tags:
+        label: Tags
+        oc.commentPosition: ''
+        span: auto
+        required: 0
+        type: taglist
+        mode: relation   
+        nameFrom: 'name'        
+    description:
+        label: Description
+        size: small
+        oc.commentPosition: ''
+        span: full
+        placeholder: 'News Description'
+        type: textarea
+tabs:
+    fields:
+        meta_title:
+            label: 'Meta Title'
+            oc.commentPosition: ''
+            span: full
+            type: text
+            tab: SEO
+        meta_keywords:
+            label: 'Meta keywords'
+            oc.commentPosition: ''
+            span: full
+            type: text
+            tab: SEO
+        meta_description:
+            label: 'Meta Description'
+            size: small
+            oc.commentPosition: ''
+            span: full
+            type: textarea
+            tab: SEO
+        body:
+            label: Content
+            size: large
+            oc.commentPosition: ''
+            span: full
+            placeholder: ''
+            type: richeditor
+            tab: Content
+        images:
+            label: 'File upload'
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Images

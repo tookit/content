@@ -1,0 +1,20 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    client:
+        label: Client
+        type: text
+        searchable: true
+    end_date:
+        label: 'End Date'
+        type: date
+        searchable: true
+        sortable: true
+    category:
+        label: Category
+        type: text
+        select: title
+        relation: category

@@ -1,0 +1,13 @@
+title: News
+modelClass: Socklab\Content\Models\Item
+list: $/socklab/content/models/item/columns.yaml
+recordUrl: 'socklab/content/news/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

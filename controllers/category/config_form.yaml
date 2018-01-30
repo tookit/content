@@ -1,0 +1,11 @@
+name: Category
+modelClass: Socklab\Content\Models\Category
+form: $/socklab/content/models/category/fields.yaml
+defaultRedirect: socklab/content/category
+create:
+    redirect: 'socklab/content/category/update/:id'
+    redirectClose: socklab/content/category
+update:
+    redirect: socklab/content/category
+    redirectClose: socklab/content/category
+preview: {  }

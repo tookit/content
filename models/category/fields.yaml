@@ -1,0 +1,45 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'Category Name'
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+   
+    description:
+        label: Description
+        size: small
+        oc.commentPosition: ''
+        span: auto
+        type: textarea
+tabs:
+    fields:
+        meta_title:
+            label: 'Meta Title'
+            oc.commentPosition: ''
+            span: full
+            type: text
+            tab: SEO
+        meta_keywords:
+            label: 'Meta keywords'
+            oc.commentPosition: ''
+            span: full
+            type: text
+            tab: SEO
+        meta_description:
+            label: 'Meta Description'
+            size: small
+            oc.commentPosition: ''
+            span: full
+            type: textarea
+            tab: SEO

@@ -1,0 +1,11 @@
+name: Tag
+modelClass: Socklab\Content\Models\Tag
+form: $/socklab/content/models/tag/fields.yaml
+defaultRedirect: socklab/content/tag
+create:
+    redirect: 'socklab/content/tag/update/:id'
+    redirectClose: socklab/content/tag
+update:
+    redirect: socklab/content/tag
+    redirectClose: socklab/content/tag
+preview: {  }

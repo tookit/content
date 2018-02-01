@@ -1,0 +1,12 @@
+title: Team
+modelClass: Socklab\Content\Models\Team
+list: $/socklab/content/models/team/columns.yaml
+recordUrl: 'socklab/content/team/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

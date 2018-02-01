@@ -26,3 +26,7 @@ navigation:
                 label: Works
                 url: /socklab/content/work
                 icon: icon-image
+            side-menu-team:
+                label: Team
+                url: /socklab/content/team
+                icon: icon-group

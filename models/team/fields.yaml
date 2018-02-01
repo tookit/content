@@ -1,0 +1,52 @@
+fields:
+    user:
+        label: Relation
+        oc.commentPosition: ''
+        nameFrom: first_name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    position:
+        label: 'Job Position'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    nickname:
+        label: 'Nick Name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    join_at:
+        label: 'Join at'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        type: datepicker
+    avatar:
+        label: Avatar
+        type: fileupload
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        thumbOptions:
+            mode: crop
+            offset:
+                - 0
+                - 0
+            quality: 90
+            sharpen: 0
+            interlace: false
+            extension: auto
+    intro:
+        label: Intro
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    specity:
+        label: Specialty
+        size: ''
+        oc.commentPosition: ''
+        mode: tab
+        span: full
+        type: markdown

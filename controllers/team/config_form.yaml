@@ -1,0 +1,10 @@
+name: Team
+modelClass: Socklab\Content\Models\Team
+form: $/socklab/content/models/team/fields.yaml
+defaultRedirect: socklab/content/team
+create:
+    redirect: 'socklab/content/team/update/:id'
+    redirectClose: socklab/content/team
+update:
+    redirect: socklab/content/team
+    redirectClose: socklab/content/team

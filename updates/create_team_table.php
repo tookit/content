@@ -17,9 +17,11 @@ class CreateTeamTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->integer('user_id');
+            $table->string('nickname');
             $table->string('position');
             $table->text('intro');
             $table->text('specity');
+            $table->date('join_at');
             $table->timestamps();
         });
     }

@@ -7,11 +7,6 @@ class BaseSeeder extends Seeder
 {
     public function run()
     {
-        DB::table('socklab_content_category')->insert(
-            [
-                'title' => 'default',
-                'slug' => 'default'
-            ]
-        );
+
     }
 }
